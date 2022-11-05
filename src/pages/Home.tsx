@@ -1,5 +1,9 @@
-export default function Home(){
+import * as React from 'react';
+
+function Home(){
   return (
-    <h1>Home</h1>
+    <h1>Hoke</h1>
   )
 }
+
+export default Home;
