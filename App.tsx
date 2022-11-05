@@ -10,8 +10,8 @@ import Navbar from './src/component/Navbar';
 
 //pages
 import Home from './src/pages/Home';
-import Store from './src/pages/Home';
-import About from './src/pages/Home';
+import Store from './src/pages/Store';
+import About from './src/pages/About';
 
 export default function App() {
   return (
@@ -20,8 +20,8 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
+          <Route  path="/store" element={<Store />} />
+          <Route  path="/about" element={<About />} />
         </Routes>
       </Container>
     </Fragment>
